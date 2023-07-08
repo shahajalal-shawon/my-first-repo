@@ -1,0 +1,52 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+} */
+*{
+    font-family: sans-serif;
+}
+ul li{
+    list-style: none;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+nav > ul{
+    display: flex;
+}
+nav li{
+    margin-right: 10px;
+    padding: 5px;
+    transition: .4s;    
+}
+nav li a{
+    color: black;
+
+}
+nav li:hover{
+    background-color: rgb(11, 149, 190);
+}
+
+
+
+
+
+
+
+
+nav li .dropdown{
+    display: none;
+}
+nav li:hover .dropdown{
+    display: block;
+    position: absolute;
+    background-color: aqua;
+    padding-left: 10px;
+}
